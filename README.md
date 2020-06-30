@@ -10,6 +10,7 @@
 
 # Frontend Masters: [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/)
 > Learn how to use AWS Lambda functions, by [Scott Moss](https://github.com/hendrixer)
+> [github repo](https://github.com/FrontendMasters/serverless-with-aws) 
 
 ### tech check
 * Node v8+
