@@ -5,7 +5,8 @@
 * $ sls create -t aws-nodejs -p demo-sls
 
 ### invoke handler fn locally (from within folder containing the handler fn)
-* sls invoke local -f hello
+* $ sls invoke local -f hello
+* $ sls invoke local -f test1
 
 # Frontend Masters: [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/)
 > Learn how to use AWS Lambda functions, by [Scott Moss](https://github.com/hendrixer)
