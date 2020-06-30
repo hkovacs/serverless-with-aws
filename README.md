@@ -1,10 +1,10 @@
-# My experiments based on the FEM course
+### My experiments based on the FEM course
 * vanilla setup:
 * $ npm i -g serverless
 * $ sls --help
 * $ sls create -t aws-nodejs -p demo-sls
 
-# invoke handler fn locally (from within folder containing the handler fn)
+### invoke handler fn locally (from within folder containing the handler fn)
 * sls invoke local -f hello
 
 # Frontend Masters: [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/)
