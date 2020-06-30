@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "serverless-http": "^1.5.5",
+    "serverless-offline": "^3.20.2"
+  },
+  "scripts": {
+    "dev": "sls offline start --port 4500",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "supertest": "^3.0.0"
+  },
+  "name": "serverless-with-aws",
+  "description": "> be sure to run: npm i -g serverless > then run: sls --help",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hkovacs",
+  "license": "ISC"
+}
