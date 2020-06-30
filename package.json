@@ -13,7 +13,8 @@
     "supertest": "^3.0.0"
   },
   "name": "serverless-with-aws",
-  "description": "> be sure to run: npm i -g serverless > then run: sls --help",
+  "description": "creating serverless functions for deployment to aws lambda",
+  "git": "https://github.com/hkovacs/serverless-with-aws",
   "version": "1.0.0",
   "main": "index.js",
   "author": "hkovacs",
