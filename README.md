@@ -15,7 +15,10 @@
 * $ http :4500/your_route
 
 # run test2_9
+* $ yarn dev
+* or
 * $ sls offline start --port 4500
+* $ http :4500
 * $ http :4500/todos
 * $ http :4500/todo/1
 
