@@ -4,10 +4,20 @@
 * $ sls --help
 * $ sls create -t aws-nodejs -p demo-sls
 
+
 ### invoke handler fn locally (from within folder containing the handler fn)
 * $ sls invoke local -f hello
 * $ sls invoke local -f test1
+* $ sls invoke local -f todo
 
+# testing routes
+* $ sls offline start --port 4500
+* $ http :4500/your_route
+
+# run test2_9
+* $ sls offline start --port 4500
+* $ http :4500/todos
+* $ http :4500/todo/1
 
 # 
 
