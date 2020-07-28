@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "jest": "^26.1.0",
-    "supertest": "^3.0.0"
+    "supertest": "^3.4.2"
   },
   "name": "serverless-with-aws",
   "description": "creating serverless functions for deployment to aws lambda",

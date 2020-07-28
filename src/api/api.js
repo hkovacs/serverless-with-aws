@@ -19,4 +19,5 @@ app.get('/todos/:todo', (req, res) => {
   res.json({id: 1, name: 'clean up', status: 'open'})
 });
 
-module.exports.handler = http(app);
+module.exports.handler = http(app); // live export
+// module.exports = app; // test export
