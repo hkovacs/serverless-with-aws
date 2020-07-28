@@ -19,7 +19,17 @@
 * $ http :4500/todos
 * $ http :4500/todo/1
 
-# 
+# Deploy to lambda
+> first configure serverless.yml file with service and profile... config
+> be sure you are in the desired directory of the service you wish to deploy
+* $ sls deploy
+
+# Tailing the fn log
+* $ sls logs -f <serviceName> -t
+
+# Destroy a lambda
+> this will destroy the target function
+* $ sls remove
 
 # Frontend Masters: [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/)
 > Learn how to use AWS Lambda functions, by [Scott Moss](https://github.com/hendrixer)
