@@ -1,16 +1,16 @@
 {
   "dependencies": {
     "express": "^4.16.3",
-    "serverless-http": "^1.10.1",
-    "serverless-offline": "^3.33.0"
+    "serverless-http": "^2.5.0",
+    "serverless-offline": "^6.7.0"
   },
   "scripts": {
     "dev": "sls offline start --port 4500",
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^26.1.0",
-    "supertest": "^3.4.2"
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
   },
   "name": "serverless-with-aws",
   "description": "creating serverless functions for deployment to aws lambda",
